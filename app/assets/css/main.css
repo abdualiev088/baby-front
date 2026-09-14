@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Fraunces", serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FFFAF3;
+}
+
+.logo {
+  font-weight: 700;
+  color: #2A2230;
+}
+
+.logo span {
+  color: #806a2d;
+}
